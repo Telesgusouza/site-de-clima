@@ -1,0 +1,11 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 10fr ;
+  margin-top: -22px;
+}
+
+@media (max-width: 612px) {
+  .App {
+    grid-template-columns: 1fr;
+  }
+}
